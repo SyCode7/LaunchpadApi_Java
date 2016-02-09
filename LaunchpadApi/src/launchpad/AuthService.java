@@ -11,6 +11,9 @@ import com.github.scribejava.core.model.Verb;
 import com.github.scribejava.core.model.Verifier;
 import com.github.scribejava.core.oauth.OAuthService;
 
+import launchpad.LaunchPadApi;
+
+
 public class AuthService {
 	
 		private static final String PROTECTED_RESOURCE_URL = "https://api.staging.launchpad.net/";
